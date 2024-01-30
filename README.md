@@ -1,11 +1,11 @@
-# ai_for_health_applications
+# ai_solutions_in_healthcare
 
-Course Objectives
-• Identify applications of ML/AI algorithms in the health sciences
-• Select appropriate ML/AI for specific task and develop code for its
-implementation
-• Utilize biomedical data to fit models and analyze data and assess model quality
-• Interpret primary scientific literature and critically evaluate scientific data within.
-• Develop written and oral scientific communication skills.
+The final report by Joelle Fitzgerald, titled "Augmenting the Accuracy of Emergency Department Triage using Machine Learning: A Multi-Class Classification Model," focuses on improving patient care in emergency departments (ED) through machine learning. The goals of this project include enhancing the accuracy of patient triage, reducing human bias, and optimizing ED resources.
 
-This repository is comprised of a semester's worth of course work demonstrating a deepened understanding and application of artificial intelligence and machine learning in healthcare.
+The data utilized comes from the MIMIC-IV-ED dataset, which includes over 2 million observations with features like vital signs, demographics, and patient acuity scores. The project involves extensive data preprocessing, exploratory data analysis, feature selection, and scaling.
+
+Key methods include the development of a neural network model with layers configured for multi-class classification, using strategies like Random Forest, XGBoost, and undersampling to handle class imbalances.
+
+The report includes various graphs and figures, such as the neural network architecture (Figure 1), training and validation accuracy and loss graphs (Figure 2), a confusion matrix (Figure 3), and a classification report (Figure 4). These visualizations aid in understanding the model's performance and the effectiveness of the approach in accurately predicting patient acuity levels in an ED setting.
+
+This repository also includes several code books of fundemental skills applied to the final project report.
